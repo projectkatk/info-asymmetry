@@ -118,6 +118,8 @@ body {
   } 
 }
 
+
+
 .copyright {
   color: #fff;
   position:absolute;
@@ -125,24 +127,6 @@ body {
   right: 20px;
   padding-bottom: 20px;  
 }
-
-#email {
-  position: absolute;
-  left: 10px;
-}
-
-.home-copy {
-  position: absolute;
-  right: 20px;
-  bottom: -700px;
-}
-
-#home-email {
-  position: absolute;
-  left: 20px;
-  bottom: -700px;
-}
-
 
 @media (min-width: 786px) {
   .logo {
@@ -322,8 +306,6 @@ cite {
   }
 
 }
-
-
 
 
 /* Propaganda Page */
