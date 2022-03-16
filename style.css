@@ -216,6 +216,7 @@ body {
 .adverse-selection li,
 .moral-hazard li {
   list-style:circle;
+  line-height: 160%;
   margin: 20px;
   text-align: left;
   font-size: 1rem;
