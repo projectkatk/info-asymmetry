@@ -74,6 +74,7 @@ body {
 #nav a {
   font-size: 0.8rem;
   line-height: 160%;
+  padding: 20px 40px;
 }
 
 .hide a {
@@ -536,12 +537,14 @@ cite {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 786px) {
+
   #nav a {
-    height: 50px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
   }
 
   .three-methods img {
