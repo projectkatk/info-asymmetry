@@ -67,11 +67,21 @@ body {
 #nav {
   border-top: 1px solid #808080;
   padding: 0;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 #nav a {
   font-size: 0.8rem;
+  line-height: 160%;
+}
+
+.hide a {
+  opacity: 0;
+}
+
+.hide a:hover {
+  opacity: 1;
 }
 
 .navi {
@@ -81,11 +91,11 @@ body {
   height: 100%;
   padding: 0.5%;
   text-decoration: none;
-  color: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .navi:hover {
-  color: #fff;
   background-color: #ffffff11;
   transition: all 0.3s ease-out;  
 }
@@ -95,10 +105,11 @@ body {
 }
 
 .pointer {
-  width: 2%;
-  height: 33px;  
+  width: 7%;
+  height: 30px;  
   opacity: 70%;
   margin: auto;
+  margin-bottom: 20px;
   animation: bounce ease;
   transition: all 1s ease-out;
   animation-duration: 3s;
@@ -117,8 +128,6 @@ body {
     transform: translateY(-2px);
   } 
 }
-
-
 
 .copyright {
   color: #fff;
@@ -209,9 +218,8 @@ body {
   list-style:circle;
   margin: 20px;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
-
 
 .why-asymmetry {
   margin-top: 100px;
@@ -234,7 +242,6 @@ body {
 .images small {
   font-size: 0.5rem;
 }
-
 
 .next-propaganda {
   margin-top: 300px;
@@ -265,8 +272,6 @@ body {
   transform: scale(0.9);
 }
 
-
-
 [aos="fade"] {
   opacity: 0;
   transition-property: opacity;
@@ -289,8 +294,6 @@ cite {
 }
 
 
-
-
 @media (min-width: 786px) {
   .title span {
     font-size: 2rem;
@@ -304,9 +307,7 @@ cite {
   .moral-hazard li {
     font-size: 1.1rem;    
   }
-
 }
-
 
 /* Propaganda Page */
 
@@ -389,10 +390,6 @@ cite {
   padding: 10px;
   text-decoration: none;
 }
-
-
-
-
 
 .what-else2 {
   background-color: black;
@@ -540,16 +537,23 @@ cite {
 
 
 @media (min-width: 768px) {
+  #nav a {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .three-methods img {
     width: 80%;
     height: auto;
   }  
 }
 
-.top {
-  position: relative;
-  top: -50px;
-}
+  .top {
+    position: relative;
+    top: -50px;
+  }
 
 
 
